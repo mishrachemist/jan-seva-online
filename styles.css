@@ -127,3 +127,7 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--sheet);border-t
 /* Non-Latin scripts: letter-spacing breaks joined letters (Urdu) and conjuncts (Indic); mono font has no glyphs for them */
 html:not([lang="en"]) .label, html:not([lang="en"]) .tag, html:not([lang="en"]) .disc{letter-spacing:0;text-transform:none;font-family:var(--f-body)}
 html:not([lang="en"]) .label{font-size:.82rem}
+
+/* Download Android app card */
+.app-dl{width:100%;margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--stamp-soft);display:grid;gap:8px;text-align:center}
+.app-dl .btn{background:var(--ink);color:var(--paper)}

@@ -6,17 +6,17 @@ window.JSO_CONFIG = {
 
   // 1) Firebase console > Project settings > "Your apps" > Web app ka config yahan paste karein
   firebase: {
-    apiKey: "PASTE_API_KEY",
-    authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-    projectId: "PASTE_PROJECT_ID",
-    storageBucket: "PASTE_PROJECT_ID.firebasestorage.app",
-    messagingSenderId: "PASTE_SENDER_ID",
-    appId: "PASTE_APP_ID"
+    apiKey: "AIzaSyD8kgTcxnSUI8HCOERrnOg28zU0-K3uZl8",
+    authDomain: "jan-seva-online.firebaseapp.com",
+    projectId: "jan-seva-online",
+    storageBucket: "jan-seva-online.firebasestorage.app",
+    messagingSenderId: "203706116538",
+    appId: "1:203706116538:web:a44510b9ec207762219583"
   },
 
   // 2) Aapka UPI ID aur bank mein darj naam (customer ke UPI app mein yahi dikhega)
-  upiId: "PASTE_UPI_ID@bank",
-  payeeName: "PASTE_APNA_NAAM",
+  upiId: "mishrachemist-1@oksbi",
+  payeeName: "Durgesh Mishra",
 
   // 3) OTP aapki screen par kitne minute dikhe (1 se 5 ke beech rakhein —
   //    firestore.rules mein 6 minute ki seema hai)

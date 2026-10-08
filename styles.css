@@ -184,3 +184,11 @@ html:not([lang="en"]) .label{font-size:.82rem}
   .chat-fab{bottom:28px}
   .toast{bottom:28px}
 }
+
+/* Mobile + PIN login */
+.or-line{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:.85rem}
+.or-line::before,.or-line::after{content:"";flex:1;border-top:1px solid var(--line)}
+.mob-login{text-align:start;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--sheet)}
+.mob-login input.pin{letter-spacing:.4em;font-size:1.3rem;text-align:center}
+.btn.secondary{background:var(--sheet);color:var(--stamp);border:2px solid var(--stamp)}
+.link{background:none;border:0;color:var(--stamp);font:600 .92rem var(--f-body);cursor:pointer;padding:4px 0;text-align:center}

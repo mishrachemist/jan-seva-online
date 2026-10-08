@@ -15,8 +15,8 @@ window.JSO_CONFIG = {
   },
 
   // 2) Aapka UPI ID aur bank mein darj naam (customer ke UPI app mein yahi dikhega)
-  upiId: "mishrachemist-1@oksbi",
-  payeeName: "Durgesh Mishra",
+  upiId: "",
+  payeeName: "",
 
   // 3) OTP aapki screen par kitne minute dikhe (1 se 5 ke beech rakhein —
   //    firestore.rules mein 6 minute ki seema hai)

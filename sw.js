@@ -1,7 +1,7 @@
 // Jan Seva Online — service worker. Caches the app's own files (network first, then cache).
 // Village lists (places/*.json) are cached the first time a state is opened.
 // Firebase / Google requests are not touched.
-const CACHE = "jso-v12";
+const CACHE = "jso-v13";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "config.js", "services.js", "districts.js", "i18n.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {

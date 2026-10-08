@@ -192,3 +192,5 @@ html:not([lang="en"]) .label{font-size:.82rem}
 .mob-login input.pin{letter-spacing:.4em;font-size:1.3rem;text-align:center}
 .btn.secondary{background:var(--sheet);color:var(--stamp);border:2px solid var(--stamp)}
 .link{background:none;border:0;color:var(--stamp);font:600 .92rem var(--f-body);cursor:pointer;padding:4px 0;text-align:center}
+
+.chat-item{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}

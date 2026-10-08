@@ -62,7 +62,8 @@ window.JSO_I18N.en = {
     e_pdfBig: "The PDF is {x} — send a PDF under 5 MB or a photo", e_type: "Send a photo or PDF only", e_photo: "Could not open the photo",
     appBtn: "Download Android app", appNote: "Opens this website as an app on your phone. Small download (under 100 KB).", appHelp: "If your phone asks, allow installing apps from this browser.",
     iosTitle: "Use it as an iPhone app", iosSteps: "In Safari, tap Share (square with ↑ arrow), then “Add to Home Screen”, then “Add”. The app icon will appear on your home screen.",
-    chatTitle: "Help & suggestions", chatIntro: "Ask a question or share a suggestion. We reply here.", chatPh: "Type your message…", chatSend: "Send", chatClose: "Close", chatEmpty: "No messages yet.", chatOpen: "Open chat"
+    chatTitle: "Help & suggestions", chatIntro: "Ask a question or share a suggestion. We reply here.", chatPh: "Type your message…", chatSend: "Send", chatClose: "Close", chatEmpty: "No messages yet.", chatOpen: "Open chat",
+    formTitle: "Applicant details", formNote: "Write exactly as on Aadhaar / your documents.", p_form: "Fill this correctly: {x}", selOne: "— Select —"
   },
   data: {}
 };
@@ -130,7 +131,8 @@ window.JSO_I18N.hi = {
     e_pdfBig: "PDF {x} का है — 5 MB से छोटा PDF या फ़ोटो भेजें", e_type: "केवल फ़ोटो या PDF भेजें", e_photo: "फ़ोटो खुल नहीं सकी",
     appBtn: "Android ऐप डाउनलोड करें", appNote: "यही वेबसाइट आपके फ़ोन पर ऐप की तरह खुलेगी। छोटा डाउनलोड (100 KB से कम)।", appHelp: "फ़ोन पूछे तो इस ब्राउज़र से ऐप इंस्टॉल करने की अनुमति दें।",
     iosTitle: "iPhone पर ऐप की तरह इस्तेमाल करें", iosSteps: "Safari में Share (↑ तीर वाला डिब्बा) दबाएँ, फिर “Add to Home Screen”, फिर “Add”। होम स्क्रीन पर ऐप का आइकन आ जाएगा।",
-    chatTitle: "मदद और सुझाव", chatIntro: "कोई सवाल पूछें या सुझाव दें। हम यहीं जवाब देंगे।", chatPh: "अपना संदेश लिखें…", chatSend: "भेजें", chatClose: "बंद करें", chatEmpty: "अभी कोई संदेश नहीं।", chatOpen: "चैट खोलें"
+    chatTitle: "मदद और सुझाव", chatIntro: "कोई सवाल पूछें या सुझाव दें। हम यहीं जवाब देंगे।", chatPh: "अपना संदेश लिखें…", chatSend: "भेजें", chatClose: "बंद करें", chatEmpty: "अभी कोई संदेश नहीं।", chatOpen: "चैट खोलें",
+    formTitle: "आवेदक की जानकारी", formNote: "ठीक वैसा ही लिखें जैसा आधार / आपके दस्तावेज़ों में है।", p_form: "इसे सही भरें: {x}", selOne: "— चुनें —"
   },
   data: {
     "PAN card": "पैन कार्ड", "Passport": "पासपोर्ट", "Driving licence": "ड्राइविंग लाइसेंस", "ITR filing": "आईटीआर फ़ाइलिंग",
@@ -148,7 +150,8 @@ window.JSO_I18N.hi = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "हर राज्य का अपना पोर्टल है। ऑनलाइन कॉपी केवल जानकारी के लिए है; प्रमाणित कॉपी तहसील से मिलती है। यूपी के अलावा राज्यों में ऑनलाइन फ़ीस: NOT FOUND।",
     "Your state's land records portal": "आपके राज्य का भू-अभिलेख पोर्टल",
     "incl. GST": "GST सहित", "from 1 Jul 2026": "1 जुलाई 2026 से", "online copy": "ऑनलाइन कॉपी", "online": "ऑनलाइन", "download": "डाउनलोड",
-    "Protean (paperless)": "Protean (पेपरलेस)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "यूपी: लर्नर ₹150 + टेस्ट ₹50, DL ₹200 + टेस्ट ₹300"
+    "Protean (paperless)": "Protean (पेपरलेस)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "यूपी: लर्नर ₹150 + टेस्ट ₹50, DL ₹200 + टेस्ट ₹300",
+    "Full name (as on Aadhaar)": "पूरा नाम (आधार के अनुसार)", "Father's name": "पिता का नाम", "Date of birth": "जन्म तिथि", "Gender": "लिंग", "Email (optional)": "ईमेल (वैकल्पिक)", "Full address (house, street, village / town)": "पूरा पता (मकान, गली, गाँव / कस्बा)", "PIN code": "पिन कोड", "PAN number": "पैन नंबर", "Voter ID (EPIC) number": "वोटर आईडी (EPIC) नंबर", "Male": "पुरुष", "Female": "महिला", "Transgender": "ट्रांसजेंडर"
   }
 };
 
@@ -215,7 +218,8 @@ window.JSO_I18N.bn = {
     e_pdfBig: "PDF-টি {x} — ৫ MB-এর কম PDF বা ছবি পাঠান", e_type: "শুধু ছবি বা PDF পাঠান", e_photo: "ছবিটি খোলা যায়নি",
     appBtn: "Android অ্যাপ ডাউনলোড করুন", appNote: "এই ওয়েবসাইটটিই আপনার ফোনে অ্যাপের মতো খুলবে। ছোট ডাউনলোড (100 KB-এর কম)।", appHelp: "ফোন জিজ্ঞাসা করলে এই ব্রাউজার থেকে অ্যাপ ইনস্টলের অনুমতি দিন।",
     iosTitle: "iPhone-এ অ্যাপের মতো ব্যবহার করুন", iosSteps: "Safari-তে Share (↑ তীর দেওয়া বাক্স) চাপুন, তারপর “Add to Home Screen”, তারপর “Add”। হোম স্ক্রিনে অ্যাপের আইকন চলে আসবে।",
-    chatTitle: "সাহায্য ও পরামর্শ", chatIntro: "প্রশ্ন করুন বা পরামর্শ দিন। আমরা এখানেই উত্তর দেব।", chatPh: "আপনার বার্তা লিখুন…", chatSend: "পাঠান", chatClose: "বন্ধ করুন", chatEmpty: "এখনও কোনো বার্তা নেই।", chatOpen: "চ্যাট খুলুন"
+    chatTitle: "সাহায্য ও পরামর্শ", chatIntro: "প্রশ্ন করুন বা পরামর্শ দিন। আমরা এখানেই উত্তর দেব।", chatPh: "আপনার বার্তা লিখুন…", chatSend: "পাঠান", chatClose: "বন্ধ করুন", chatEmpty: "এখনও কোনো বার্তা নেই।", chatOpen: "চ্যাট খুলুন",
+    formTitle: "আবেদনকারীর তথ্য", formNote: "আধার / আপনার নথিতে যেমন আছে ঠিক তেমন লিখুন।", p_form: "এটি সঠিকভাবে পূরণ করুন: {x}", selOne: "— বেছে নিন —"
   },
   data: {
     "PAN card": "প্যান কার্ড", "Passport": "পাসপোর্ট", "Driving licence": "ড্রাইভিং লাইসেন্স", "ITR filing": "আইটিআর ফাইলিং",
@@ -233,7 +237,8 @@ window.JSO_I18N.bn = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "প্রতিটি রাজ্যের নিজস্ব পোর্টাল আছে। অনলাইন কপি শুধু তথ্যের জন্য; প্রত্যয়িত কপি তহসিল অফিস থেকে পাওয়া যায়। উত্তরপ্রদেশ ছাড়া অন্য রাজ্যে অনলাইন ফি: NOT FOUND।",
     "Your state's land records portal": "আপনার রাজ্যের ভূমি রেকর্ড পোর্টাল",
     "incl. GST": "GST সহ", "from 1 Jul 2026": "১ জুলাই ২০২৬ থেকে", "online copy": "অনলাইন কপি", "online": "অনলাইন", "download": "ডাউনলোড",
-    "Protean (paperless)": "Protean (কাগজবিহীন)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "উত্তর প্রদেশ: লার্নার ₹150 + টেস্ট ₹50, DL ₹200 + টেস্ট ₹300"
+    "Protean (paperless)": "Protean (কাগজবিহীন)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "উত্তর প্রদেশ: লার্নার ₹150 + টেস্ট ₹50, DL ₹200 + টেস্ট ₹300",
+    "Full name (as on Aadhaar)": "পুরো নাম (আধার অনুযায়ী)", "Father's name": "বাবার নাম", "Date of birth": "জন্ম তারিখ", "Gender": "লিঙ্গ", "Email (optional)": "ইমেল (ঐচ্ছিক)", "Full address (house, street, village / town)": "পুরো ঠিকানা (বাড়ি, রাস্তা, গ্রাম / শহর)", "PIN code": "পিন কোড", "PAN number": "প্যান নম্বর", "Voter ID (EPIC) number": "ভোটার আইডি (EPIC) নম্বর", "Male": "পুরুষ", "Female": "মহিলা", "Transgender": "ট্রান্সজেন্ডার"
   }
 };
 
@@ -300,7 +305,8 @@ window.JSO_I18N.mr = {
     e_pdfBig: "PDF {x} आहे — 5 MB पेक्षा लहान PDF किंवा फोटो पाठवा", e_type: "फक्त फोटो किंवा PDF पाठवा", e_photo: "फोटो उघडता आला नाही",
     appBtn: "Android अ‍ॅप डाउनलोड करा", appNote: "हीच वेबसाइट तुमच्या फोनवर अ‍ॅपसारखी उघडेल. छोटा डाउनलोड (100 KB पेक्षा कमी).", appHelp: "फोनने विचारल्यास या ब्राउझरमधून अ‍ॅप इन्स्टॉल करण्याची परवानगी द्या.",
     iosTitle: "iPhone वर अ‍ॅपसारखे वापरा", iosSteps: "Safari मध्ये Share (↑ बाण असलेला चौकोन) दाबा, मग “Add to Home Screen”, मग “Add”. होम स्क्रीनवर अ‍ॅपचा आयकॉन येईल.",
-    chatTitle: "मदत आणि सूचना", chatIntro: "प्रश्न विचारा किंवा सूचना द्या. आम्ही इथेच उत्तर देऊ.", chatPh: "तुमचा संदेश लिहा…", chatSend: "पाठवा", chatClose: "बंद करा", chatEmpty: "अजून कोणताही संदेश नाही.", chatOpen: "चॅट उघडा"
+    chatTitle: "मदत आणि सूचना", chatIntro: "प्रश्न विचारा किंवा सूचना द्या. आम्ही इथेच उत्तर देऊ.", chatPh: "तुमचा संदेश लिहा…", chatSend: "पाठवा", chatClose: "बंद करा", chatEmpty: "अजून कोणताही संदेश नाही.", chatOpen: "चॅट उघडा",
+    formTitle: "अर्जदाराची माहिती", formNote: "आधार / तुमच्या कागदपत्रांवर आहे तसेच लिहा.", p_form: "हे बरोबर भरा: {x}", selOne: "— निवडा —"
   },
   data: {
     "PAN card": "पॅन कार्ड", "Passport": "पासपोर्ट", "Driving licence": "ड्रायव्हिंग लायसन्स", "ITR filing": "आयटीआर भरणे",
@@ -318,7 +324,8 @@ window.JSO_I18N.mr = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "प्रत्येक राज्याचे स्वतःचे पोर्टल आहे. ऑनलाइन प्रत फक्त माहितीसाठी आहे; प्रमाणित प्रत तहसील कार्यालयातून मिळते. उत्तर प्रदेश सोडून इतर राज्यांत ऑनलाइन शुल्क: NOT FOUND.",
     "Your state's land records portal": "तुमच्या राज्याचे भूमी अभिलेख पोर्टल",
     "incl. GST": "GST सह", "from 1 Jul 2026": "1 जुलै 2026 पासून", "online copy": "ऑनलाइन प्रत", "online": "ऑनलाइन", "download": "डाउनलोड",
-    "Protean (paperless)": "Protean (कागदविरहित)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "उत्तर प्रदेश: लर्नर ₹150 + चाचणी ₹50, DL ₹200 + चाचणी ₹300"
+    "Protean (paperless)": "Protean (कागदविरहित)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "उत्तर प्रदेश: लर्नर ₹150 + चाचणी ₹50, DL ₹200 + चाचणी ₹300",
+    "Full name (as on Aadhaar)": "पूर्ण नाव (आधारनुसार)", "Father's name": "वडिलांचे नाव", "Date of birth": "जन्मतारीख", "Gender": "लिंग", "Email (optional)": "ईमेल (ऐच्छिक)", "Full address (house, street, village / town)": "पूर्ण पत्ता (घर, गल्ली, गाव / शहर)", "PIN code": "पिन कोड", "PAN number": "पॅन क्रमांक", "Voter ID (EPIC) number": "मतदार ओळखपत्र (EPIC) क्रमांक", "Male": "पुरुष", "Female": "स्त्री", "Transgender": "तृतीयपंथी"
   }
 };
 
@@ -385,7 +392,8 @@ window.JSO_I18N.te = {
     e_pdfBig: "PDF {x} ఉంది — 5 MB కంటే తక్కువ PDF లేదా ఫోటో పంపండి", e_type: "ఫోటో లేదా PDF మాత్రమే పంపండి", e_photo: "ఫోటో తెరవలేకపోయాం",
     appBtn: "Android యాప్ డౌన్‌లోడ్ చేయండి", appNote: "ఇదే వెబ్‌సైట్ మీ ఫోన్‌లో యాప్‌లా తెరుచుకుంటుంది. చిన్న డౌన్‌లోడ్ (100 KB కంటే తక్కువ).", appHelp: "ఫోన్ అడిగితే, ఈ బ్రౌజర్ నుండి యాప్‌లను ఇన్‌స్టాల్ చేయడానికి అనుమతించండి.",
     iosTitle: "iPhone లో యాప్‌లా ఉపయోగించండి", iosSteps: "Safari లో Share (↑ బాణం ఉన్న పెట్టె) నొక్కండి, తర్వాత “Add to Home Screen”, తర్వాత “Add”. హోమ్ స్క్రీన్‌పై యాప్ ఐకాన్ వస్తుంది.",
-    chatTitle: "సహాయం & సూచనలు", chatIntro: "ప్రశ్న అడగండి లేదా సూచన ఇవ్వండి. మేము ఇక్కడే సమాధానం ఇస్తాం.", chatPh: "మీ సందేశం రాయండి…", chatSend: "పంపండి", chatClose: "మూసివేయండి", chatEmpty: "ఇంకా సందేశాలు లేవు.", chatOpen: "చాట్ తెరవండి"
+    chatTitle: "సహాయం & సూచనలు", chatIntro: "ప్రశ్న అడగండి లేదా సూచన ఇవ్వండి. మేము ఇక్కడే సమాధానం ఇస్తాం.", chatPh: "మీ సందేశం రాయండి…", chatSend: "పంపండి", chatClose: "మూసివేయండి", chatEmpty: "ఇంకా సందేశాలు లేవు.", chatOpen: "చాట్ తెరవండి",
+    formTitle: "దరఖాస్తుదారు వివరాలు", formNote: "ఆధార్ / మీ పత్రాలలో ఉన్నట్లే రాయండి.", p_form: "దీన్ని సరిగ్గా నింపండి: {x}", selOne: "— ఎంచుకోండి —"
   },
   data: {
     "PAN card": "పాన్ కార్డ్", "Passport": "పాస్‌పోర్ట్", "Driving licence": "డ్రైవింగ్ లైసెన్స్", "ITR filing": "ఐటీఆర్ ఫైలింగ్",
@@ -403,7 +411,8 @@ window.JSO_I18N.te = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ప్రతి రాష్ట్రానికి సొంత పోర్టల్ ఉంది. ఆన్‌లైన్ కాపీ సమాచారం కోసం మాత్రమే; ధృవీకృత కాపీ తహసీల్ / మండల కార్యాలయం నుంచి వస్తుంది. ఉత్తరప్రదేశ్ కాకుండా ఇతర రాష్ట్రాల్లో ఆన్‌లైన్ ఫీజు: NOT FOUND.",
     "Your state's land records portal": "మీ రాష్ట్ర భూ రికార్డుల పోర్టల్",
     "incl. GST": "GST తో కలిపి", "from 1 Jul 2026": "1 జూలై 2026 నుంచి", "online copy": "ఆన్‌లైన్ కాపీ", "online": "ఆన్‌లైన్", "download": "డౌన్‌లోడ్",
-    "Protean (paperless)": "Protean (పేపర్‌లెస్)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ఉత్తర ప్రదేశ్: లెర్నర్ ₹150 + టెస్ట్ ₹50, DL ₹200 + టెస్ట్ ₹300"
+    "Protean (paperless)": "Protean (పేపర్‌లెస్)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ఉత్తర ప్రదేశ్: లెర్నర్ ₹150 + టెస్ట్ ₹50, DL ₹200 + టెస్ట్ ₹300",
+    "Full name (as on Aadhaar)": "పూర్తి పేరు (ఆధార్ ప్రకారం)", "Father's name": "తండ్రి పేరు", "Date of birth": "పుట్టిన తేదీ", "Gender": "లింగం", "Email (optional)": "ఈమెయిల్ (ఐచ్ఛికం)", "Full address (house, street, village / town)": "పూర్తి చిరునామా (ఇల్లు, వీధి, గ్రామం / పట్టణం)", "PIN code": "పిన్ కోడ్", "PAN number": "పాన్ నంబర్", "Voter ID (EPIC) number": "ఓటర్ ఐడీ (EPIC) నంబర్", "Male": "పురుషుడు", "Female": "స్త్రీ", "Transgender": "ట్రాన్స్‌జెండర్"
   }
 };
 
@@ -470,7 +479,8 @@ window.JSO_I18N.ta = {
     e_pdfBig: "PDF அளவு {x} — 5 MB-க்குக் குறைவான PDF அல்லது புகைப்படம் அனுப்புங்கள்", e_type: "புகைப்படம் அல்லது PDF மட்டும் அனுப்புங்கள்", e_photo: "புகைப்படத்தைத் திறக்க முடியவில்லை",
     appBtn: "Android செயலியைப் பதிவிறக்கவும்", appNote: "இதே இணையதளம் உங்கள் தொலைபேசியில் செயலியாகத் திறக்கும். சிறிய பதிவிறக்கம் (100 KB-க்குக் குறைவு).", appHelp: "தொலைபேசி கேட்டால், இந்த உலாவியிலிருந்து செயலிகளை நிறுவ அனுமதிக்கவும்.",
     iosTitle: "iPhone-இல் செயலியாகப் பயன்படுத்துங்கள்", iosSteps: "Safari-இல் Share (↑ அம்புக்குறி உள்ள பெட்டி) அழுத்தவும், பிறகு “Add to Home Screen”, பிறகு “Add”. முகப்புத் திரையில் செயலி ஐகான் வரும்.",
-    chatTitle: "உதவி & பரிந்துரைகள்", chatIntro: "கேள்வி கேளுங்கள் அல்லது பரிந்துரை சொல்லுங்கள். நாங்கள் இங்கேயே பதில் அளிப்போம்.", chatPh: "உங்கள் செய்தியை எழுதுங்கள்…", chatSend: "அனுப்பு", chatClose: "மூடு", chatEmpty: "இன்னும் செய்திகள் இல்லை.", chatOpen: "அரட்டையைத் திற"
+    chatTitle: "உதவி & பரிந்துரைகள்", chatIntro: "கேள்வி கேளுங்கள் அல்லது பரிந்துரை சொல்லுங்கள். நாங்கள் இங்கேயே பதில் அளிப்போம்.", chatPh: "உங்கள் செய்தியை எழுதுங்கள்…", chatSend: "அனுப்பு", chatClose: "மூடு", chatEmpty: "இன்னும் செய்திகள் இல்லை.", chatOpen: "அரட்டையைத் திற",
+    formTitle: "விண்ணப்பதாரர் விவரங்கள்", formNote: "ஆதார் / உங்கள் ஆவணங்களில் உள்ளபடியே எழுதுங்கள்.", p_form: "இதைச் சரியாக நிரப்பவும்: {x}", selOne: "— தேர்ந்தெடுக்கவும் —"
   },
   data: {
     "PAN card": "பான் கார்டு", "Passport": "பாஸ்போர்ட்", "Driving licence": "ஓட்டுநர் உரிமம்", "ITR filing": "ஐடிஆர் தாக்கல்",
@@ -488,7 +498,8 @@ window.JSO_I18N.ta = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ஒவ்வொரு மாநிலத்துக்கும் தனி போர்ட்டல் உண்டு. ஆன்லைன் நகல் தகவலுக்கு மட்டும்; சான்றிட்ட நகல் வட்டாட்சியர் அலுவலகத்தில் கிடைக்கும். உத்தரப் பிரதேசம் தவிர மற்ற மாநிலங்களில் ஆன்லைன் கட்டணம்: NOT FOUND.",
     "Your state's land records portal": "உங்கள் மாநில நில ஆவண போர்ட்டல்",
     "incl. GST": "GST உட்பட", "from 1 Jul 2026": "1 ஜூலை 2026 முதல்", "online copy": "ஆன்லைன் நகல்", "online": "ஆன்லைன்", "download": "பதிவிறக்கம்",
-    "Protean (paperless)": "Protean (காகிதமில்லா)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "உத்தரப் பிரதேசம்: லேர்னர் ₹150 + சோதனை ₹50, DL ₹200 + சோதனை ₹300"
+    "Protean (paperless)": "Protean (காகிதமில்லா)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "உத்தரப் பிரதேசம்: லேர்னர் ₹150 + சோதனை ₹50, DL ₹200 + சோதனை ₹300",
+    "Full name (as on Aadhaar)": "முழுப் பெயர் (ஆதாரில் உள்ளபடி)", "Father's name": "தந்தையின் பெயர்", "Date of birth": "பிறந்த தேதி", "Gender": "பாலினம்", "Email (optional)": "மின்னஞ்சல் (விருப்பத்தேர்வு)", "Full address (house, street, village / town)": "முழு முகவரி (வீடு, தெரு, கிராமம் / நகரம்)", "PIN code": "அஞ்சல் குறியீடு (PIN)", "PAN number": "பான் எண்", "Voter ID (EPIC) number": "வாக்காளர் அட்டை (EPIC) எண்", "Male": "ஆண்", "Female": "பெண்", "Transgender": "திருநங்கை"
   }
 };
 
@@ -555,7 +566,8 @@ window.JSO_I18N.gu = {
     e_pdfBig: "PDF {x} નું છે — 5 MB થી નાની PDF અથવા ફોટો મોકલો", e_type: "ફક્ત ફોટો અથવા PDF મોકલો", e_photo: "ફોટો ખૂલી શક્યો નહીં",
     appBtn: "Android એપ ડાઉનલોડ કરો", appNote: "આ જ વેબસાઇટ તમારા ફોનમાં એપની જેમ ખુલશે. નાનું ડાઉનલોડ (100 KB થી ઓછું).", appHelp: "ફોન પૂછે તો આ બ્રાઉઝરથી એપ ઇન્સ્ટોલ કરવાની પરવાનગી આપો.",
     iosTitle: "iPhone પર એપની જેમ વાપરો", iosSteps: "Safari માં Share (↑ તીરવાળું ખાનું) દબાવો, પછી “Add to Home Screen”, પછી “Add”. હોમ સ્ક્રીન પર એપનો આઇકન આવી જશે.",
-    chatTitle: "મદદ અને સૂચનો", chatIntro: "પ્રશ્ન પૂછો અથવા સૂચન આપો. અમે અહીં જ જવાબ આપીશું.", chatPh: "તમારો સંદેશ લખો…", chatSend: "મોકલો", chatClose: "બંધ કરો", chatEmpty: "હજુ કોઈ સંદેશ નથી.", chatOpen: "ચેટ ખોલો"
+    chatTitle: "મદદ અને સૂચનો", chatIntro: "પ્રશ્ન પૂછો અથવા સૂચન આપો. અમે અહીં જ જવાબ આપીશું.", chatPh: "તમારો સંદેશ લખો…", chatSend: "મોકલો", chatClose: "બંધ કરો", chatEmpty: "હજુ કોઈ સંદેશ નથી.", chatOpen: "ચેટ ખોલો",
+    formTitle: "અરજદારની માહિતી", formNote: "આધાર / તમારા દસ્તાવેજોમાં છે એવું જ લખો.", p_form: "આ સાચું ભરો: {x}", selOne: "— પસંદ કરો —"
   },
   data: {
     "PAN card": "પાન કાર્ડ", "Passport": "પાસપોર્ટ", "Driving licence": "ડ્રાઇવિંગ લાઇસન્સ", "ITR filing": "આઇટીઆર ફાઇલિંગ",
@@ -573,7 +585,8 @@ window.JSO_I18N.gu = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "દરેક રાજ્યનું પોતાનું પોર્ટલ છે. ઓનલાઇન નકલ ફક્ત માહિતી માટે છે; પ્રમાણિત નકલ તાલુકા કચેરીમાંથી મળે છે. ઉત્તર પ્રદેશ સિવાયનાં રાજ્યોમાં ઓનલાઇન ફી: NOT FOUND.",
     "Your state's land records portal": "તમારા રાજ્યનું જમીન રેકોર્ડ પોર્ટલ",
     "incl. GST": "GST સહિત", "from 1 Jul 2026": "1 જુલાઈ 2026 થી", "online copy": "ઓનલાઇન નકલ", "online": "ઓનલાઇન", "download": "ડાઉનલોડ",
-    "Protean (paperless)": "Protean (પેપરલેસ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ઉત્તર પ્રદેશ: લર્નર ₹150 + ટેસ્ટ ₹50, DL ₹200 + ટેસ્ટ ₹300"
+    "Protean (paperless)": "Protean (પેપરલેસ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ઉત્તર પ્રદેશ: લર્નર ₹150 + ટેસ્ટ ₹50, DL ₹200 + ટેસ્ટ ₹300",
+    "Full name (as on Aadhaar)": "પૂરું નામ (આધાર મુજબ)", "Father's name": "પિતાનું નામ", "Date of birth": "જન્મ તારીખ", "Gender": "જાતિ", "Email (optional)": "ઈમેલ (વૈકલ્પિક)", "Full address (house, street, village / town)": "પૂરું સરનામું (ઘર, શેરી, ગામ / શહેર)", "PIN code": "પિન કોડ", "PAN number": "પાન નંબર", "Voter ID (EPIC) number": "મતદાર ઓળખપત્ર (EPIC) નંબર", "Male": "પુરુષ", "Female": "સ્ત્રી", "Transgender": "ટ્રાન્સજેન્ડર"
   }
 };
 
@@ -640,7 +653,8 @@ window.JSO_I18N.ur = {
     e_pdfBig: "PDF {x} کا ہے — 5 MB سے چھوٹا PDF یا تصویر بھیجیں", e_type: "صرف تصویر یا PDF بھیجیں", e_photo: "تصویر کھل نہیں سکی",
     appBtn: "Android ایپ ڈاؤن لوڈ کریں", appNote: "یہی ویب سائٹ آپ کے فون پر ایپ کی طرح کھلے گی۔ چھوٹا ڈاؤن لوڈ (100 KB سے کم)۔", appHelp: "فون پوچھے تو اس براؤزر سے ایپ انسٹال کرنے کی اجازت دیں۔",
     iosTitle: "iPhone پر ایپ کی طرح استعمال کریں", iosSteps: "Safari میں Share (↑ تیر والا ڈبہ) دبائیں، پھر “Add to Home Screen”، پھر “Add”۔ ہوم اسکرین پر ایپ کا آئیکن آ جائے گا۔",
-    chatTitle: "مدد اور تجاویز", chatIntro: "سوال پوچھیں یا تجویز دیں۔ ہم یہیں جواب دیں گے۔", chatPh: "اپنا پیغام لکھیں…", chatSend: "بھیجیں", chatClose: "بند کریں", chatEmpty: "ابھی کوئی پیغام نہیں۔", chatOpen: "چیٹ کھولیں"
+    chatTitle: "مدد اور تجاویز", chatIntro: "سوال پوچھیں یا تجویز دیں۔ ہم یہیں جواب دیں گے۔", chatPh: "اپنا پیغام لکھیں…", chatSend: "بھیجیں", chatClose: "بند کریں", chatEmpty: "ابھی کوئی پیغام نہیں۔", chatOpen: "چیٹ کھولیں",
+    formTitle: "درخواست گزار کی معلومات", formNote: "بالکل ویسا ہی لکھیں جیسا آدھار / آپ کے دستاویزات میں ہے۔", p_form: "اسے درست بھریں: {x}", selOne: "— منتخب کریں —"
   },
   data: {
     "PAN card": "پین کارڈ", "Passport": "پاسپورٹ", "Driving licence": "ڈرائیونگ لائسنس", "ITR filing": "آئی ٹی آر فائلنگ",
@@ -658,7 +672,8 @@ window.JSO_I18N.ur = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ہر ریاست کا اپنا پورٹل ہے۔ آن لائن کاپی صرف معلومات کے لیے ہے؛ تصدیق شدہ کاپی تحصیل سے ملتی ہے۔ یوپی کے علاوہ ریاستوں میں آن لائن فیس: NOT FOUND۔",
     "Your state's land records portal": "آپ کی ریاست کا زمینی ریکارڈ پورٹل",
     "incl. GST": "GST سمیت", "from 1 Jul 2026": "1 جولائی 2026 سے", "online copy": "آن لائن کاپی", "online": "آن لائن", "download": "ڈاؤن لوڈ",
-    "Protean (paperless)": "Protean (پیپر لیس)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "یوپی: لرنر ₹150 + ٹیسٹ ₹50، DL ₹200 + ٹیسٹ ₹300"
+    "Protean (paperless)": "Protean (پیپر لیس)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "یوپی: لرنر ₹150 + ٹیسٹ ₹50، DL ₹200 + ٹیسٹ ₹300",
+    "Full name (as on Aadhaar)": "پورا نام (آدھار کے مطابق)", "Father's name": "والد کا نام", "Date of birth": "تاریخ پیدائش", "Gender": "جنس", "Email (optional)": "ای میل (اختیاری)", "Full address (house, street, village / town)": "پورا پتہ (مکان، گلی، گاؤں / قصبہ)", "PIN code": "پن کوڈ", "PAN number": "پین نمبر", "Voter ID (EPIC) number": "ووٹر آئی ڈی (EPIC) نمبر", "Male": "مرد", "Female": "عورت", "Transgender": "ٹرانسجینڈر"
   }
 };
 
@@ -725,7 +740,8 @@ window.JSO_I18N.kn = {
     e_pdfBig: "PDF {x} ಇದೆ — 5 MB ಗಿಂತ ಚಿಕ್ಕ PDF ಅಥವಾ ಫೋಟೋ ಕಳುಹಿಸಿ", e_type: "ಫೋಟೋ ಅಥವಾ PDF ಮಾತ್ರ ಕಳುಹಿಸಿ", e_photo: "ಫೋಟೋ ತೆರೆಯಲಾಗಲಿಲ್ಲ",
     appBtn: "Android ಆ್ಯಪ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ", appNote: "ಇದೇ ವೆಬ್‌ಸೈಟ್ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಆ್ಯಪ್‌ನಂತೆ ತೆರೆಯುತ್ತದೆ. ಚಿಕ್ಕ ಡೌನ್‌ಲೋಡ್ (100 KB ಗಿಂತ ಕಡಿಮೆ).", appHelp: "ಫೋನ್ ಕೇಳಿದರೆ, ಈ ಬ್ರೌಸರ್‌ನಿಂದ ಆ್ಯಪ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ಅನುಮತಿ ನೀಡಿ.",
     iosTitle: "iPhone ನಲ್ಲಿ ಆ್ಯಪ್‌ನಂತೆ ಬಳಸಿ", iosSteps: "Safari ಯಲ್ಲಿ Share (↑ ಬಾಣದ ಚೌಕ) ಒತ್ತಿ, ನಂತರ “Add to Home Screen”, ನಂತರ “Add”. ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಆ್ಯಪ್ ಐಕಾನ್ ಬರುತ್ತದೆ.",
-    chatTitle: "ಸಹಾಯ ಮತ್ತು ಸಲಹೆಗಳು", chatIntro: "ಪ್ರಶ್ನೆ ಕೇಳಿ ಅಥವಾ ಸಲಹೆ ನೀಡಿ. ನಾವು ಇಲ್ಲೇ ಉತ್ತರಿಸುತ್ತೇವೆ.", chatPh: "ನಿಮ್ಮ ಸಂದೇಶ ಬರೆಯಿರಿ…", chatSend: "ಕಳುಹಿಸಿ", chatClose: "ಮುಚ್ಚಿ", chatEmpty: "ಇನ್ನೂ ಯಾವುದೇ ಸಂದೇಶವಿಲ್ಲ.", chatOpen: "ಚಾಟ್ ತೆರೆಯಿರಿ"
+    chatTitle: "ಸಹಾಯ ಮತ್ತು ಸಲಹೆಗಳು", chatIntro: "ಪ್ರಶ್ನೆ ಕೇಳಿ ಅಥವಾ ಸಲಹೆ ನೀಡಿ. ನಾವು ಇಲ್ಲೇ ಉತ್ತರಿಸುತ್ತೇವೆ.", chatPh: "ನಿಮ್ಮ ಸಂದೇಶ ಬರೆಯಿರಿ…", chatSend: "ಕಳುಹಿಸಿ", chatClose: "ಮುಚ್ಚಿ", chatEmpty: "ಇನ್ನೂ ಯಾವುದೇ ಸಂದೇಶವಿಲ್ಲ.", chatOpen: "ಚಾಟ್ ತೆರೆಯಿರಿ",
+    formTitle: "ಅರ್ಜಿದಾರರ ವಿವರಗಳು", formNote: "ಆಧಾರ್ / ನಿಮ್ಮ ದಾಖಲೆಗಳಲ್ಲಿ ಇರುವಂತೆಯೇ ಬರೆಯಿರಿ.", p_form: "ಇದನ್ನು ಸರಿಯಾಗಿ ಭರ್ತಿ ಮಾಡಿ: {x}", selOne: "— ಆಯ್ಕೆಮಾಡಿ —"
   },
   data: {
     "PAN card": "ಪ್ಯಾನ್ ಕಾರ್ಡ್", "Passport": "ಪಾಸ್‌ಪೋರ್ಟ್", "Driving licence": "ಡ್ರೈವಿಂಗ್ ಲೈಸೆನ್ಸ್", "ITR filing": "ಐಟಿಆರ್ ಸಲ್ಲಿಕೆ",
@@ -743,7 +759,8 @@ window.JSO_I18N.kn = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ಪ್ರತಿ ರಾಜ್ಯಕ್ಕೂ ತನ್ನದೇ ಪೋರ್ಟಲ್ ಇದೆ. ಆನ್‌ಲೈನ್ ಪ್ರತಿ ಮಾಹಿತಿಗೆ ಮಾತ್ರ; ಪ್ರಮಾಣೀಕೃತ ಪ್ರತಿ ತಾಲೂಕು ಕಚೇರಿಯಿಂದ ಸಿಗುತ್ತದೆ. ಉತ್ತರ ಪ್ರದೇಶ ಹೊರತುಪಡಿಸಿ ಇತರ ರಾಜ್ಯಗಳಲ್ಲಿ ಆನ್‌ಲೈನ್ ಶುಲ್ಕ: NOT FOUND.",
     "Your state's land records portal": "ನಿಮ್ಮ ರಾಜ್ಯದ ಭೂ ದಾಖಲೆ ಪೋರ್ಟಲ್",
     "incl. GST": "GST ಸೇರಿ", "from 1 Jul 2026": "1 ಜುಲೈ 2026 ರಿಂದ", "online copy": "ಆನ್‌ಲೈನ್ ಪ್ರತಿ", "online": "ಆನ್‌ಲೈನ್", "download": "ಡೌನ್‌ಲೋಡ್",
-    "Protean (paperless)": "Protean (ಕಾಗದರಹಿತ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ಉತ್ತರ ಪ್ರದೇಶ: ಲರ್ನರ್ ₹150 + ಪರೀಕ್ಷೆ ₹50, DL ₹200 + ಪರೀಕ್ಷೆ ₹300"
+    "Protean (paperless)": "Protean (ಕಾಗದರಹಿತ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ಉತ್ತರ ಪ್ರದೇಶ: ಲರ್ನರ್ ₹150 + ಪರೀಕ್ಷೆ ₹50, DL ₹200 + ಪರೀಕ್ಷೆ ₹300",
+    "Full name (as on Aadhaar)": "ಪೂರ್ಣ ಹೆಸರು (ಆಧಾರ್ ಪ್ರಕಾರ)", "Father's name": "ತಂದೆಯ ಹೆಸರು", "Date of birth": "ಹುಟ್ಟಿದ ದಿನಾಂಕ", "Gender": "ಲಿಂಗ", "Email (optional)": "ಇಮೇಲ್ (ಐಚ್ಛಿಕ)", "Full address (house, street, village / town)": "ಪೂರ್ಣ ವಿಳಾಸ (ಮನೆ, ಬೀದಿ, ಗ್ರಾಮ / ಪಟ್ಟಣ)", "PIN code": "ಪಿನ್ ಕೋಡ್", "PAN number": "ಪ್ಯಾನ್ ಸಂಖ್ಯೆ", "Voter ID (EPIC) number": "ಮತದಾರರ ಗುರುತಿನ ಚೀಟಿ (EPIC) ಸಂಖ್ಯೆ", "Male": "ಪುರುಷ", "Female": "ಮಹಿಳೆ", "Transgender": "ತೃತೀಯಲಿಂಗಿ"
   }
 };
 
@@ -810,7 +827,8 @@ window.JSO_I18N.or = {
     e_pdfBig: "PDF {x} ର — 5 MB ରୁ ଛୋଟ PDF କିମ୍ବା ଫଟୋ ପଠାନ୍ତୁ", e_type: "କେବଳ ଫଟୋ କିମ୍ବା PDF ପଠାନ୍ତୁ", e_photo: "ଫଟୋ ଖୋଲିହେଲା ନାହିଁ",
     appBtn: "Android ଆପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ", appNote: "ଏହି ୱେବସାଇଟ୍ ଆପଣଙ୍କ ଫୋନରେ ଆପ୍ ଭଳି ଖୋଲିବ। ଛୋଟ ଡାଉନଲୋଡ୍ (100 KB ରୁ କମ୍)।", appHelp: "ଫୋନ୍ ପଚାରିଲେ, ଏହି ବ୍ରାଉଜରରୁ ଆପ୍ ଇନଷ୍ଟଲ୍ କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ।",
     iosTitle: "iPhone ରେ ଆପ୍ ଭଳି ବ୍ୟବହାର କରନ୍ତୁ", iosSteps: "Safari ରେ Share (↑ ତୀର ଥିବା ବାକ୍ସ) ଦବାନ୍ତୁ, ତା’ପରେ “Add to Home Screen”, ତା’ପରେ “Add”। ହୋମ୍ ସ୍କ୍ରିନରେ ଆପ୍ ଆଇକନ୍ ଆସିଯିବ।",
-    chatTitle: "ସାହାଯ୍ୟ ଓ ପରାମର୍ଶ", chatIntro: "ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ କିମ୍ବା ପରାମର୍ଶ ଦିଅନ୍ତୁ। ଆମେ ଏଠାରେ ଉତ୍ତର ଦେବୁ।", chatPh: "ଆପଣଙ୍କ ସନ୍ଦେଶ ଲେଖନ୍ତୁ…", chatSend: "ପଠାନ୍ତୁ", chatClose: "ବନ୍ଦ କରନ୍ତୁ", chatEmpty: "ଏବେ କୌଣସି ସନ୍ଦେଶ ନାହିଁ।", chatOpen: "ଚାଟ୍ ଖୋଲନ୍ତୁ"
+    chatTitle: "ସାହାଯ୍ୟ ଓ ପରାମର୍ଶ", chatIntro: "ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ କିମ୍ବା ପରାମର୍ଶ ଦିଅନ୍ତୁ। ଆମେ ଏଠାରେ ଉତ୍ତର ଦେବୁ।", chatPh: "ଆପଣଙ୍କ ସନ୍ଦେଶ ଲେଖନ୍ତୁ…", chatSend: "ପଠାନ୍ତୁ", chatClose: "ବନ୍ଦ କରନ୍ତୁ", chatEmpty: "ଏବେ କୌଣସି ସନ୍ଦେଶ ନାହିଁ।", chatOpen: "ଚାଟ୍ ଖୋଲନ୍ତୁ",
+    formTitle: "ଆବେଦକଙ୍କ ବିବରଣୀ", formNote: "ଆଧାର / ଆପଣଙ୍କ ଦଲିଲରେ ଯେପରି ଅଛି ଠିକ୍ ସେପରି ଲେଖନ୍ତୁ।", p_form: "ଏହାକୁ ଠିକ୍ ଭରନ୍ତୁ: {x}", selOne: "— ବାଛନ୍ତୁ —"
   },
   data: {
     "PAN card": "ପାନ୍ କାର୍ଡ", "Passport": "ପାସପୋର୍ଟ", "Driving licence": "ଡ୍ରାଇଭିଂ ଲାଇସେନ୍ସ", "ITR filing": "ଆଇଟିଆର୍ ଦାଖଲ",
@@ -828,7 +846,8 @@ window.JSO_I18N.or = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ପ୍ରତ୍ୟେକ ରାଜ୍ୟର ନିଜସ୍ୱ ପୋର୍ଟାଲ ଅଛି। ଅନଲାଇନ୍ କପି କେବଳ ସୂଚନା ପାଇଁ; ପ୍ରମାଣିତ କପି ତହସିଲରୁ ମିଳେ। ଉତ୍ତର ପ୍ରଦେଶ ବ୍ୟତୀତ ଅନ୍ୟ ରାଜ୍ୟରେ ଅନଲାଇନ୍ ଶୁଳ୍କ: NOT FOUND।",
     "Your state's land records portal": "ଆପଣଙ୍କ ରାଜ୍ୟର ଜମି ରେକର୍ଡ ପୋର୍ଟାଲ",
     "incl. GST": "GST ସହିତ", "from 1 Jul 2026": "1 ଜୁଲାଇ 2026 ରୁ", "online copy": "ଅନଲାଇନ୍ କପି", "online": "ଅନଲାଇନ୍", "download": "ଡାଉନଲୋଡ୍",
-    "Protean (paperless)": "Protean (କାଗଜବିହୀନ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ଉତ୍ତର ପ୍ରଦେଶ: ଲର୍ଣ୍ଣର ₹150 + ଟେଷ୍ଟ ₹50, DL ₹200 + ଟେଷ୍ଟ ₹300"
+    "Protean (paperless)": "Protean (କାଗଜବିହୀନ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ଉତ୍ତର ପ୍ରଦେଶ: ଲର୍ଣ୍ଣର ₹150 + ଟେଷ୍ଟ ₹50, DL ₹200 + ଟେଷ୍ଟ ₹300",
+    "Full name (as on Aadhaar)": "ପୂରା ନାମ (ଆଧାର ଅନୁଯାୟୀ)", "Father's name": "ପିତାଙ୍କ ନାମ", "Date of birth": "ଜନ୍ମ ତାରିଖ", "Gender": "ଲିଙ୍ଗ", "Email (optional)": "ଇମେଲ୍ (ଇଚ୍ଛାଧୀନ)", "Full address (house, street, village / town)": "ପୂରା ଠିକଣା (ଘର, ଗଳି, ଗ୍ରାମ / ସହର)", "PIN code": "ପିନ୍ କୋଡ୍", "PAN number": "ପାନ୍ ନମ୍ବର", "Voter ID (EPIC) number": "ଭୋଟର ପରିଚୟପତ୍ର (EPIC) ନମ୍ବର", "Male": "ପୁରୁଷ", "Female": "ମହିଳା", "Transgender": "ଟ୍ରାନ୍ସଜେଣ୍ଡର"
   }
 };
 
@@ -895,7 +914,8 @@ window.JSO_I18N.ml = {
     e_pdfBig: "PDF {x} ആണ് — 5 MB-യിൽ താഴെയുള്ള PDF അല്ലെങ്കിൽ ഫോട്ടോ അയയ്ക്കുക", e_type: "ഫോട്ടോ അല്ലെങ്കിൽ PDF മാത്രം അയയ്ക്കുക", e_photo: "ഫോട്ടോ തുറക്കാനായില്ല",
     appBtn: "Android ആപ്പ് ഡൗൺലോഡ് ചെയ്യുക", appNote: "ഇതേ വെബ്സൈറ്റ് നിങ്ങളുടെ ഫോണിൽ ആപ്പായി തുറക്കും. ചെറിയ ഡൗൺലോഡ് (100 KB-യിൽ താഴെ).", appHelp: "ഫോൺ ചോദിച്ചാൽ, ഈ ബ്രൗസറിൽ നിന്ന് ആപ്പുകൾ ഇൻസ്റ്റാൾ ചെയ്യാൻ അനുവദിക്കുക.",
     iosTitle: "iPhone-ൽ ആപ്പായി ഉപയോഗിക്കുക", iosSteps: "Safari-യിൽ Share (↑ അമ്പടയാളമുള്ള ചതുരം) അമർത്തുക, തുടർന്ന് “Add to Home Screen”, തുടർന്ന് “Add”. ഹോം സ്ക്രീനിൽ ആപ്പ് ഐക്കൺ വരും.",
-    chatTitle: "സഹായവും നിർദ്ദേശങ്ങളും", chatIntro: "ചോദ്യം ചോദിക്കുക അല്ലെങ്കിൽ നിർദ്ദേശം പങ്കിടുക. ഞങ്ങൾ ഇവിടെ മറുപടി നൽകും.", chatPh: "നിങ്ങളുടെ സന്ദേശം എഴുതുക…", chatSend: "അയയ്ക്കുക", chatClose: "അടയ്ക്കുക", chatEmpty: "ഇതുവരെ സന്ദേശങ്ങളൊന്നുമില്ല.", chatOpen: "ചാറ്റ് തുറക്കുക"
+    chatTitle: "സഹായവും നിർദ്ദേശങ്ങളും", chatIntro: "ചോദ്യം ചോദിക്കുക അല്ലെങ്കിൽ നിർദ്ദേശം പങ്കിടുക. ഞങ്ങൾ ഇവിടെ മറുപടി നൽകും.", chatPh: "നിങ്ങളുടെ സന്ദേശം എഴുതുക…", chatSend: "അയയ്ക്കുക", chatClose: "അടയ്ക്കുക", chatEmpty: "ഇതുവരെ സന്ദേശങ്ങളൊന്നുമില്ല.", chatOpen: "ചാറ്റ് തുറക്കുക",
+    formTitle: "അപേക്ഷകന്റെ വിവരങ്ങൾ", formNote: "ആധാറിൽ / നിങ്ങളുടെ രേഖകളിൽ ഉള്ളതുപോലെ തന്നെ എഴുതുക.", p_form: "ഇത് ശരിയായി പൂരിപ്പിക്കുക: {x}", selOne: "— തിരഞ്ഞെടുക്കുക —"
   },
   data: {
     "PAN card": "പാൻ കാർഡ്", "Passport": "പാസ്‌പോർട്ട്", "Driving licence": "ഡ്രൈവിംഗ് ലൈസൻസ്", "ITR filing": "ഐടിആർ ഫയലിംഗ്",
@@ -913,7 +933,8 @@ window.JSO_I18N.ml = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ഓരോ സംസ്ഥാനത്തിനും സ്വന്തം പോർട്ടലുണ്ട്. ഓൺലൈൻ പകർപ്പ് വിവരത്തിന് മാത്രം; സാക്ഷ്യപ്പെടുത്തിയ പകർപ്പ് താലൂക്ക് / വില്ലേജ് ഓഫീസിൽ നിന്ന് ലഭിക്കും. ഉത്തർപ്രദേശ് ഒഴികെയുള്ള സംസ്ഥാനങ്ങളിൽ ഓൺലൈൻ ഫീസ്: NOT FOUND.",
     "Your state's land records portal": "നിങ്ങളുടെ സംസ്ഥാനത്തിന്റെ ഭൂരേഖ പോർട്ടൽ",
     "incl. GST": "GST ഉൾപ്പെടെ", "from 1 Jul 2026": "2026 ജൂലൈ 1 മുതൽ", "online copy": "ഓൺലൈൻ പകർപ്പ്", "online": "ഓൺലൈൻ", "download": "ഡൗൺലോഡ്",
-    "Protean (paperless)": "Protean (പേപ്പർരഹിതം)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ഉത്തർപ്രദേശ്: ലേണർ ₹150 + ടെസ്റ്റ് ₹50, DL ₹200 + ടെസ്റ്റ് ₹300"
+    "Protean (paperless)": "Protean (പേപ്പർരഹിതം)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ഉത്തർപ്രദേശ്: ലേണർ ₹150 + ടെസ്റ്റ് ₹50, DL ₹200 + ടെസ്റ്റ് ₹300",
+    "Full name (as on Aadhaar)": "പൂർണ്ണ പേര് (ആധാർ പ്രകാരം)", "Father's name": "പിതാവിന്റെ പേര്", "Date of birth": "ജനനത്തീയതി", "Gender": "ലിംഗം", "Email (optional)": "ഇമെയിൽ (ഐച്ഛികം)", "Full address (house, street, village / town)": "പൂർണ്ണ വിലാസം (വീട്, തെരുവ്, ഗ്രാമം / പട്ടണം)", "PIN code": "പിൻ കോഡ്", "PAN number": "പാൻ നമ്പർ", "Voter ID (EPIC) number": "വോട്ടർ ഐഡി (EPIC) നമ്പർ", "Male": "പുരുഷൻ", "Female": "സ്ത്രീ", "Transgender": "ട്രാൻസ്‌ജെൻഡർ"
   }
 };
 
@@ -980,7 +1001,8 @@ window.JSO_I18N.pa = {
     e_pdfBig: "PDF {x} ਦੀ ਹੈ — 5 MB ਤੋਂ ਛੋਟੀ PDF ਜਾਂ ਫ਼ੋਟੋ ਭੇਜੋ", e_type: "ਸਿਰਫ਼ ਫ਼ੋਟੋ ਜਾਂ PDF ਭੇਜੋ", e_photo: "ਫ਼ੋਟੋ ਖੁੱਲ੍ਹ ਨਹੀਂ ਸਕੀ",
     appBtn: "Android ਐਪ ਡਾਊਨਲੋਡ ਕਰੋ", appNote: "ਇਹੀ ਵੈੱਬਸਾਈਟ ਤੁਹਾਡੇ ਫ਼ੋਨ 'ਤੇ ਐਪ ਵਾਂਗ ਖੁੱਲ੍ਹੇਗੀ। ਛੋਟਾ ਡਾਊਨਲੋਡ (100 KB ਤੋਂ ਘੱਟ)।", appHelp: "ਫ਼ੋਨ ਪੁੱਛੇ ਤਾਂ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਐਪ ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।",
     iosTitle: "iPhone 'ਤੇ ਐਪ ਵਾਂਗ ਵਰਤੋ", iosSteps: "Safari ਵਿੱਚ Share (↑ ਤੀਰ ਵਾਲਾ ਡੱਬਾ) ਦਬਾਓ, ਫਿਰ “Add to Home Screen”, ਫਿਰ “Add”। ਹੋਮ ਸਕ੍ਰੀਨ 'ਤੇ ਐਪ ਦਾ ਆਈਕਨ ਆ ਜਾਵੇਗਾ।",
-    chatTitle: "ਮਦਦ ਅਤੇ ਸੁਝਾਅ", chatIntro: "ਸਵਾਲ ਪੁੱਛੋ ਜਾਂ ਸੁਝਾਅ ਦਿਓ। ਅਸੀਂ ਇੱਥੇ ਹੀ ਜਵਾਬ ਦੇਵਾਂਗੇ।", chatPh: "ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ…", chatSend: "ਭੇਜੋ", chatClose: "ਬੰਦ ਕਰੋ", chatEmpty: "ਅਜੇ ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ।", chatOpen: "ਚੈਟ ਖੋਲ੍ਹੋ"
+    chatTitle: "ਮਦਦ ਅਤੇ ਸੁਝਾਅ", chatIntro: "ਸਵਾਲ ਪੁੱਛੋ ਜਾਂ ਸੁਝਾਅ ਦਿਓ। ਅਸੀਂ ਇੱਥੇ ਹੀ ਜਵਾਬ ਦੇਵਾਂਗੇ।", chatPh: "ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ…", chatSend: "ਭੇਜੋ", chatClose: "ਬੰਦ ਕਰੋ", chatEmpty: "ਅਜੇ ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ।", chatOpen: "ਚੈਟ ਖੋਲ੍ਹੋ",
+    formTitle: "ਬਿਨੈਕਾਰ ਦੀ ਜਾਣਕਾਰੀ", formNote: "ਬਿਲਕੁਲ ਉਵੇਂ ਹੀ ਲਿਖੋ ਜਿਵੇਂ ਆਧਾਰ / ਤੁਹਾਡੇ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਹੈ।", p_form: "ਇਸਨੂੰ ਸਹੀ ਭਰੋ: {x}", selOne: "— ਚੁਣੋ —"
   },
   data: {
     "PAN card": "ਪੈਨ ਕਾਰਡ", "Passport": "ਪਾਸਪੋਰਟ", "Driving licence": "ਡਰਾਈਵਿੰਗ ਲਾਇਸੈਂਸ", "ITR filing": "ਆਈਟੀਆਰ ਫਾਈਲਿੰਗ",
@@ -998,7 +1020,8 @@ window.JSO_I18N.pa = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "ਹਰ ਰਾਜ ਦਾ ਆਪਣਾ ਪੋਰਟਲ ਹੈ। ਔਨਲਾਈਨ ਕਾਪੀ ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਲਈ ਹੈ; ਤਸਦੀਕਸ਼ੁਦਾ ਕਾਪੀ ਤਹਿਸੀਲ ਤੋਂ ਮਿਲਦੀ ਹੈ। ਯੂਪੀ ਤੋਂ ਇਲਾਵਾ ਰਾਜਾਂ ਵਿੱਚ ਔਨਲਾਈਨ ਫ਼ੀਸ: NOT FOUND।",
     "Your state's land records portal": "ਤੁਹਾਡੇ ਰਾਜ ਦਾ ਜ਼ਮੀਨੀ ਰਿਕਾਰਡ ਪੋਰਟਲ",
     "incl. GST": "GST ਸਮੇਤ", "from 1 Jul 2026": "1 ਜੁਲਾਈ 2026 ਤੋਂ", "online copy": "ਔਨਲਾਈਨ ਕਾਪੀ", "online": "ਔਨਲਾਈਨ", "download": "ਡਾਊਨਲੋਡ",
-    "Protean (paperless)": "Protean (ਪੇਪਰਲੈੱਸ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ਯੂਪੀ: ਲਰਨਰ ₹150 + ਟੈਸਟ ₹50, DL ₹200 + ਟੈਸਟ ₹300"
+    "Protean (paperless)": "Protean (ਪੇਪਰਲੈੱਸ)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "ਯੂਪੀ: ਲਰਨਰ ₹150 + ਟੈਸਟ ₹50, DL ₹200 + ਟੈਸਟ ₹300",
+    "Full name (as on Aadhaar)": "ਪੂਰਾ ਨਾਮ (ਆਧਾਰ ਮੁਤਾਬਕ)", "Father's name": "ਪਿਤਾ ਦਾ ਨਾਮ", "Date of birth": "ਜਨਮ ਮਿਤੀ", "Gender": "ਲਿੰਗ", "Email (optional)": "ਈਮੇਲ (ਵਿਕਲਪਿਕ)", "Full address (house, street, village / town)": "ਪੂਰਾ ਪਤਾ (ਮਕਾਨ, ਗਲੀ, ਪਿੰਡ / ਕਸਬਾ)", "PIN code": "ਪਿੰਨ ਕੋਡ", "PAN number": "ਪੈਨ ਨੰਬਰ", "Voter ID (EPIC) number": "ਵੋਟਰ ਆਈਡੀ (EPIC) ਨੰਬਰ", "Male": "ਮਰਦ", "Female": "ਔਰਤ", "Transgender": "ਟ੍ਰਾਂਸਜੈਂਡਰ"
   }
 };
 
@@ -1065,7 +1088,8 @@ window.JSO_I18N.as = {
     e_pdfBig: "PDF টো {x} — 5 MB তকৈ সৰু PDF বা ফটো পঠিয়াওক", e_type: "কেৱল ফটো বা PDF পঠিয়াওক", e_photo: "ফটো খুলিব পৰা নগ'ল",
     appBtn: "Android এপ ডাউনল'ড কৰক", appNote: "এই ৱেবছাইটটোৱেই আপোনাৰ ফোনত এপৰ দৰে খুলিব। সৰু ডাউনল'ড (100 KB তকৈ কম)।", appHelp: "ফোনে সুধিলে, এই ব্ৰাউজাৰৰ পৰা এপ ইনষ্টল কৰাৰ অনুমতি দিয়ক।",
     iosTitle: "iPhone ত এপৰ দৰে ব্যৱহাৰ কৰক", iosSteps: "Safari ত Share (↑ কাঁড় চিহ্ন থকা বাকচ) টিপক, তাৰ পিছত “Add to Home Screen”, তাৰ পিছত “Add”। হোম স্ক্ৰীনত এপৰ আইকন আহিব।",
-    chatTitle: "সহায় আৰু পৰামৰ্শ", chatIntro: "প্ৰশ্ন সোধক বা পৰামৰ্শ দিয়ক। আমি ইয়াতেই উত্তৰ দিম।", chatPh: "আপোনাৰ বাৰ্তা লিখক…", chatSend: "পঠিয়াওক", chatClose: "বন্ধ কৰক", chatEmpty: "এতিয়াও কোনো বাৰ্তা নাই।", chatOpen: "চেট খোলক"
+    chatTitle: "সহায় আৰু পৰামৰ্শ", chatIntro: "প্ৰশ্ন সোধক বা পৰামৰ্শ দিয়ক। আমি ইয়াতেই উত্তৰ দিম।", chatPh: "আপোনাৰ বাৰ্তা লিখক…", chatSend: "পঠিয়াওক", chatClose: "বন্ধ কৰক", chatEmpty: "এতিয়াও কোনো বাৰ্তা নাই।", chatOpen: "চেট খোলক",
+    formTitle: "আবেদনকাৰীৰ তথ্য", formNote: "আধাৰ / আপোনাৰ নথিত যেনেকৈ আছে ঠিক তেনেকৈ লিখক।", p_form: "এইটো শুদ্ধকৈ পূৰণ কৰক: {x}", selOne: "— বাছক —"
   },
   data: {
     "PAN card": "পেন কাৰ্ড", "Passport": "পাছপ'ৰ্ট", "Driving licence": "ড্ৰাইভিং লাইচেঞ্চ", "ITR filing": "আইটিআৰ দাখিল",
@@ -1083,6 +1107,7 @@ window.JSO_I18N.as = {
     "Each state has its own portal. The online copy is for information only; a certified copy comes from the tehsil. Online fee in states other than UP: NOT FOUND.": "প্ৰতিখন ৰাজ্যৰ নিজা পৰ্টেল আছে। অনলাইন কপি কেৱল তথ্যৰ বাবে; প্ৰমাণিত কপি চক্ৰ কাৰ্যালয়ৰ পৰা পোৱা যায়। উত্তৰ প্ৰদেশৰ বাহিৰে অন্য ৰাজ্যত অনলাইন মাচুল: NOT FOUND।",
     "Your state's land records portal": "আপোনাৰ ৰাজ্যৰ মাটিৰ ৰেকৰ্ড পৰ্টেল",
     "incl. GST": "GST সহ", "from 1 Jul 2026": "1 জুলাই 2026 ৰ পৰা", "online copy": "অনলাইন কপি", "online": "অনলাইন", "download": "ডাউনল'ড",
-    "Protean (paperless)": "Protean (কাগজবিহীন)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "উত্তৰ প্ৰদেশ: লাৰ্নাৰ ₹150 + পৰীক্ষা ₹50, DL ₹200 + পৰীক্ষা ₹300"
+    "Protean (paperless)": "Protean (কাগজবিহীন)", "UP: learner ₹150 + test ₹50, DL ₹200 + test ₹300": "উত্তৰ প্ৰদেশ: লাৰ্নাৰ ₹150 + পৰীক্ষা ₹50, DL ₹200 + পৰীক্ষা ₹300",
+    "Full name (as on Aadhaar)": "সম্পূৰ্ণ নাম (আধাৰ অনুসৰি)", "Father's name": "দেউতাৰ নাম", "Date of birth": "জন্মৰ তাৰিখ", "Gender": "লিংগ", "Email (optional)": "ইমেইল (ঐচ্ছিক)", "Full address (house, street, village / town)": "সম্পূৰ্ণ ঠিকনা (ঘৰ, পথ, গাঁও / চহৰ)", "PIN code": "পিন কোড", "PAN number": "পেন নম্বৰ", "Voter ID (EPIC) number": "ভোটাৰ আইডি (EPIC) নম্বৰ", "Male": "পুৰুষ", "Female": "মহিলা", "Transgender": "ট্ৰান্সজেণ্ডাৰ"
   }
 };
